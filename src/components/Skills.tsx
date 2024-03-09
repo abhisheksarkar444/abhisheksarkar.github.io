@@ -18,15 +18,15 @@ export default function Skills({}: Props) {
         Hover over a skill for current proficiency
       </h3>
 
-      <div className="grid grid-cols-4 gap-5 ">
-        <Skill directionLeft={true} imgSrc="/Images/ReactLogo.png" />
-        <Skill directionLeft={true} imgSrc="/Images/JS_Logo.png" />
-        <Skill directionLeft={true} imgSrc="/Images/CSS.png" />
-        <Skill directionLeft={true} imgSrc="/Images/JQuery.png" />
-        <Skill directionLeft={false} imgSrc="/Images/JQuery.png" />
-        <Skill imgSrc="/Images/JQuery.png" />
-        <Skill imgSrc="/Images/JQuery.png" />
-        <Skill imgSrc="/Images/JQuery.png" />
+      <div className="grid grid-cols-4 gap-8 ">
+        <Skill directionLeft={true} proficiency="90%" imgSrc="/Images/ReactLogo.png" />
+        <Skill directionLeft={true} proficiency="70%" imgSrc="/Images/JS_Logo.png" />
+        <Skill directionLeft={true} proficiency="90%" imgSrc="/Images/CSS.png" />
+        <Skill directionLeft={true} proficiency="60%" imgSrc="/Images/JQuery.png" />
+        <Skill directionLeft={false} proficiency="40%" imgSrc="/Images/JQuery.png" />
+        <Skill proficiency="" imgSrc="/Images/JQuery.png" />
+        <Skill proficiency="" imgSrc="/Images/JQuery.png" />
+        <Skill proficiency="" imgSrc="/Images/JQuery.png" />
       </div>
     </motion.div>
   );
